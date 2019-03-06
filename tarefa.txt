@@ -1,0 +1,7 @@
+O site deve ter os seguintes requisitos:
+	O usuário deve escolher em uma região (estado), e nessa região o site mostra as atrações
+	O usuário deve escolher uma atração
+	O sistema deve mostrar as informações detalhadas da atração escolhida
+	O usuário deve selecionar o tipo de ingresso (inteiro, meio/aposentado, meio/idoso, meio/estudante, meio/professor e meio/criança) e informar a quantidade
+	O sistema deve mostrar alternativas de forma de pagamento. No cartão de crédito (informar dados para o sistema) e no boleto.
+	O sistema deve mostrar o resumo da compra com o somatório de o quanto o usuário deve pagar (R$)
