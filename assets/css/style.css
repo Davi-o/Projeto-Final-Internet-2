@@ -24,6 +24,9 @@
     padding: 5%;
     font-size: 20px;
 }
+#regions{
+    overflow: hidden;
+}
 .txt{
     z-index: 0;
     position: absolute;
@@ -36,4 +39,7 @@
 }
 .page-footer{
     background-color: #fafafa !important;
+}
+.hide{
+    display: none !important;
 }
