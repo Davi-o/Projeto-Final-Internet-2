@@ -15,18 +15,18 @@
 </head>
 
 <body>
-    <header>
+    <header id="inicio">
         <nav id="nav-menu" class="hide-on-med-and-down">
             <div class="nav-wrapper">
                 <ul id="nav-mobile" class="right">
                     <li>
-                        <a href="#!">Inicio</a>
+                        <a href="#!" onclick="smoothScrollBegin()">Inicio</a>
                     </li>
                     <li>
-                        <a href="#!">Regiões</a>
+                        <a href="#!" onclick="smoothScrollRegion()">Regiões</a>
                     </li>
                     <li>
-                        <a href="#!">Contatos</a>
+                        <a href="#!" onclick="smoothScrollContact()">Contatos</a>
                     </li>
                 </ul>
             </div>
@@ -52,16 +52,16 @@
             </div>
          </div>
          <div>
-            <table class="centered">
+            <table id="regioes" class="centered">
                 <thead>
                     <tr>
-                        <th>Regiões</th>
+                        <th><h3>Regiões</h3></th>
                     </tr>
                 </thead>
         
                 <tbody>
-                    <tr class="row valign-wrapper col s12">
-                        <td class="col s12 l6">
+                    <tr class="row col s12">
+                        <td class="col s12 m12 l4">
                             <div class="card">
                                 <div class="card-image">
                                     <img src="assets/img/carousel-img1.jpeg">
@@ -76,10 +76,72 @@
                                 </div>
                             </div>
                         </td>
-                        <td class="col s12 l6">
+                        <td class="col s12 m12 l4">
                             <div class="card">
                                 <div class="card-image">
-                                    <img src="assets/img/carousel-img1.jpeg">
+                                    <img src="assets/img/carousel-img2.jpeg">
+                                    <span class="card-title">Card Title</span>
+                                </div>
+                                <div class="card-content">
+                                    <p>I am a very simple card. I am good at containing small bits of information.
+                                    I am convenient because I require little markup to use effectively.</p>
+                                </div>
+                                <div class="card-action">
+                                    <a href="#">Saiba mais</a>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="col s12 m12 l4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="assets/img/carousel-img3.jpeg">
+                                    <span class="card-title">Card Title</span>
+                                </div>
+                                <div class="card-content">
+                                    <p>I am a very simple card. I am good at containing small bits of information.
+                                    I am convenient because I require little markup to use effectively.</p>
+                                </div>
+                                <div class="card-action">
+                                    <a href="#">Saiba mais</a>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="row col s12">
+                        <td class="col s12 m12 l4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="assets/img/carousel-img3.jpeg">
+                                    <span class="card-title">Card Title</span>
+                                </div>
+                                <div class="card-content">
+                                    <p>I am a very simple card. I am good at containing small bits of information.
+                                    I am convenient because I require little markup to use effectively.</p>
+                                </div>
+                                <div class="card-action">
+                                    <a href="#">Saiba mais</a>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="col s12 m12 l4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="assets/img/carousel-img2.jpeg">
+                                    <span class="card-title">Card Title</span>
+                                </div>
+                                <div class="card-content">
+                                    <p>I am a very simple card. I am good at containing small bits of information.
+                                    I am convenient because I require little markup to use effectively.</p>
+                                </div>
+                                <div class="card-action">
+                                    <a href="#">Saiba mais</a>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="col s12 m12 l4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="assets/img/carousel-img3.jpeg">
                                     <span class="card-title">Card Title</span>
                                 </div>
                                 <div class="card-content">
@@ -115,8 +177,8 @@
             </div>
             <div class="footer-copyright">
               <div class="container grey-text text-darken-3">
-              © 2014 Copyright Text
-              <a class="grey-text text-darken-3 right" href="#!">More Links</a>
+               Site desenvolvido por oDavi Alves © - 2019
+              <a id="contato" class="grey-text text-darken-3 right" href="#!">More Links</a>
               </div>
             </div>
         </footer>
