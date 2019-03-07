@@ -31,7 +31,9 @@
                 </ul>
             </div>
         </nav>
-        <a id="sidenav-button" href="#" data-target="slide-out" class="sidenav-trigger hide-on-large-only"><i class="material-icons grey-text text-darken-3">menu</i></a>
+        <a id="sidenav-button" href="#" data-target="slide-out" class="sidenav-trigger hide-on-large-only">
+            <i class="material-icons grey-text text-darken-3">menu</i>
+        </a>
         <ul id="slide-out" class="sidenav">
             <li>
                 <a href="#!">Inicio</a>
@@ -50,29 +52,79 @@
                 <h1>Bem Vindo</h1>
                 <p>Se estava procurando um destino, acabou de encontrar vários!</p>
             </div>
-         </div>
-         <div>
+        </div>
+        <div>
             <table id="regioes" class="centered">
                 <thead>
                     <tr>
-                        <th><h3>Regiões</h3></th>
+                        <th>
+                            <h3>Regiões</h3>
+                        </th>
                     </tr>
                 </thead>
-        
+
                 <tbody>
                     <tr class="row col s12">
                         <td class="col s12 m12 l4">
                             <div class="card">
                                 <div class="card-image">
                                     <img src="assets/img/carousel-img1.jpeg">
-                                    <span class="card-title">Card Title</span>
+                                    <span id="lugar" class="card-title">Star City</span>
                                 </div>
                                 <div class="card-content">
-                                    <p>I am a very simple card. I am good at containing small bits of information.
-                                    I am convenient because I require little markup to use effectively.</p>
+                                    <p>I am a very simple card. I am good at containing small bits of information. I am convenient
+                                        because I require little markup to use effectively.</p>
                                 </div>
                                 <div class="card-action">
-                                    <a href="#">Saiba mais</a>
+                                    <a class="modal-trigger" href="#modal">Saiba mais</a>
+                                    <div id="modal" class="modal">
+                                        <div class="modal-content">
+                                            <h5>Destinos para Star City</h5>
+                                            <div id="shop1" class="card horizontal">
+                                                <div class="card-image">
+                                                    <img src="assets/img/carousel-img2.jpeg" alt="">
+                                                </div>
+                                                <div class="card-stacked">
+                                                    <div class="modal-content">
+                                                        <h6>Parque de diversão</h6>
+                                                        <p>Valor por pessoa: R$30</p>
+                                                        <a class="btn" href="#!" onclick="shop1()">QUERO</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-content">
+                                            <div id="shop2" class="card horizontal">
+                                                <div class="card-image">
+                                                    <img src="assets/img/carousel-img2.jpeg" alt="">
+                                                </div>
+                                                <div class="card-stacked">
+                                                    <div class="modal-content">
+                                                        <h6>Evento Sertanejo</h6>
+                                                        <p>Valor por pessoa: R$30</p>
+                                                        <a class="btn" href="#!">QUERO</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-content">
+                                            <div id="shop3" class="card horizontal">
+                                                <div class="card-image">
+                                                    <img src="assets/img/carousel-img2.jpeg" alt="">
+                                                </div>
+                                                <div class="card-stacked">
+                                                    <div class="modal-content">
+                                                        <h6>Amostra de Veiculos</h6>
+                                                        <p>Valor por pessoa: R$30</p>
+                                                        <a class="btn" href="#!">QUERO</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a class="modal-close" href="#!">Fechar</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </td>
@@ -83,8 +135,8 @@
                                     <span class="card-title">Card Title</span>
                                 </div>
                                 <div class="card-content">
-                                    <p>I am a very simple card. I am good at containing small bits of information.
-                                    I am convenient because I require little markup to use effectively.</p>
+                                    <p>I am a very simple card. I am good at containing small bits of information. I am convenient
+                                        because I require little markup to use effectively.</p>
                                 </div>
                                 <div class="card-action">
                                     <a href="#">Saiba mais</a>
@@ -98,8 +150,8 @@
                                     <span class="card-title">Card Title</span>
                                 </div>
                                 <div class="card-content">
-                                    <p>I am a very simple card. I am good at containing small bits of information.
-                                    I am convenient because I require little markup to use effectively.</p>
+                                    <p>I am a very simple card. I am good at containing small bits of information. I am convenient
+                                        because I require little markup to use effectively.</p>
                                 </div>
                                 <div class="card-action">
                                     <a href="#">Saiba mais</a>
@@ -115,8 +167,8 @@
                                     <span class="card-title">Card Title</span>
                                 </div>
                                 <div class="card-content">
-                                    <p>I am a very simple card. I am good at containing small bits of information.
-                                    I am convenient because I require little markup to use effectively.</p>
+                                    <p>I am a very simple card. I am good at containing small bits of information. I am convenient
+                                        because I require little markup to use effectively.</p>
                                 </div>
                                 <div class="card-action">
                                     <a href="#">Saiba mais</a>
@@ -130,8 +182,8 @@
                                     <span class="card-title">Card Title</span>
                                 </div>
                                 <div class="card-content">
-                                    <p>I am a very simple card. I am good at containing small bits of information.
-                                    I am convenient because I require little markup to use effectively.</p>
+                                    <p>I am a very simple card. I am good at containing small bits of information. I am convenient
+                                        because I require little markup to use effectively.</p>
                                 </div>
                                 <div class="card-action">
                                     <a href="#">Saiba mais</a>
@@ -145,8 +197,8 @@
                                     <span class="card-title">Card Title</span>
                                 </div>
                                 <div class="card-content">
-                                    <p>I am a very simple card. I am good at containing small bits of information.
-                                    I am convenient because I require little markup to use effectively.</p>
+                                    <p>I am a very simple card. I am good at containing small bits of information. I am convenient
+                                        because I require little markup to use effectively.</p>
                                 </div>
                                 <div class="card-action">
                                     <a href="#">Saiba mais</a>
@@ -156,32 +208,40 @@
                     </tr>
                 </tbody>
             </table>
-         </div>
+        </div>
     </section>
     <footer class="page-footer">
-            <div class="container">
-              <div class="row">
+        <div class="container">
+            <div class="row">
                 <div class="col l6 s12">
-                  <h5 class="grey-text text-darken-3">Quem somos nós?</h5>
-                  <p class="grey-text text-darken-3">You can use rows and columns here to organize your footer content.</p>
+                    <h5 class="grey-text text-darken-3">Quem somos nós?</h5>
+                    <p class="grey-text text-darken-3">You can use rows and columns here to organize your footer content.</p>
                 </div>
                 <div class="col l4 offset-l2 s12">
-                  <ul id="social-media-footer" class="row valign-wrapper">
-                    <li><a class="grey-text text-darken-3 fa fa-facebook" href="#!"></a></li>
-                    <li><a class="grey-text text-darken-3 fa fa-twitter" href="#!"></a></li>
-                    <li><a class="grey-text text-darken-3 fa fa-linkedin" href="#!"></a></li>
-                    <li><a class="grey-text text-darken-3 fa fa-instagram" href="#!"></a></li>
-                  </ul>
+                    <ul id="social-media-footer" class="row valign-wrapper">
+                        <li>
+                            <a class="grey-text text-darken-3 fa fa-facebook" href="#!"></a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-darken-3 fa fa-twitter" href="#!"></a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-darken-3 fa fa-linkedin" href="#!"></a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-darken-3 fa fa-instagram" href="#!"></a>
+                        </li>
+                    </ul>
                 </div>
-              </div>
             </div>
-            <div class="footer-copyright">
-              <div class="container grey-text text-darken-3">
-               Site desenvolvido por oDavi Alves © - 2019
-              <a id="contato" class="grey-text text-darken-3 right" href="#!">More Links</a>
-              </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container grey-text text-darken-3">
+                Site desenvolvido por oDavi Alves © - 2019
+                <a id="contato" class="grey-text text-darken-3 right" href="#!">More Links</a>
             </div>
-        </footer>
+        </div>
+    </footer>
 </body>
 
 </html>
